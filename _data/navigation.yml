@@ -1,0 +1,10 @@
+navbar:
+
+- title: Home
+  url: /
+
+- title: Resume
+  url: /resume
+
+- title: About Me
+  url: /about

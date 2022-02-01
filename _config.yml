@@ -18,16 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Matthew Teelucksingh's Software Portfolio
+email: teelucksingh.matthew1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my software portfolio. I started as an student at the University of Waterloo where I studied environmental economics. 
+  My exposure to field data collection techniques early on fueled an interest in programming, specifically the processes of collecting and transforming
+  raw data. Since then I have continued to develop these skills by building various projects that ingest, serve and display data in my primary
+  programming language: python.
+
+  If you think that my skillset can benefit you, I encourage you to have a look at my projects and contact me if you find them interesting!
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  MatthewTe
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0

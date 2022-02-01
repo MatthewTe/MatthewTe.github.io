@@ -1,0 +1,9 @@
+<header class="site-header">
+    <div class="wrapper">
+        <nav class="site-nav">
+            {% for item in site.data.navigation.navbar %}
+            <a class="page-link" href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+          </nav>    
+    </div>
+</header>

@@ -1,0 +1,39 @@
+.site-header{
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 55.95px;
+    position: relative;
+}
+
+.wrapper{
+    max-width: calc(54em - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.site-nav {
+    float: right;
+    line-height: 54px;
+  
+    .nav-trigger {
+        display: none;
+    }
+  
+    .menu-icon {
+      display: none;
+    }
+  
+    .page-link {
+      color: green;
+      line-height: 1.5;
+      margin-right: 20px;
+      font-size: larger;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      
+      // Gaps between nav items, but not on the last one
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+}
