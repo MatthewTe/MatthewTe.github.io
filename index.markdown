@@ -11,8 +11,18 @@ When looking at other people's portfolios I am often surprised by how impressive
 Most of my projects revolve around building data ingestion and transformation projects and APIs.
 
 ## Online Data Portal
+![No image lol](assets/images/icon/django_icon.png){: .icon}
+![No image lol](assets/images/icon/DRF_icon.png){: .icon}
+![No image lol](assets/images/icon/psql_icon.png){: .icon}
+![No image lol](assets/images/icon/celery_icon.png){: .icon}
+![No image lol](assets/images/icon/redis_icon.png){: .icon}
+![No image lol](assets/images/icon/nginx_icon.png){: .icon}
+![No image lol](assets/images/icon/REST_API_icon.png){: .icon}
+![No image lol](assets/images/icon/docker_icon.png){: .icon}
+![No image lol](assets/images/icon/DigitalOcean_icon.png){: .icon1}
+
 ![There is no image for some reason](assets/images/data_portal_screenshot.png)
-This Online Data Portal is the project that I have spent most of my time on. Conceptually this data portal is designed to ingest and serve data for my other projects and dashboards. The tech stack is as follows: 
+This [Online Data Portal](http://159.223.180.214:81/) is the project that I have spent most of my time on. Conceptually this data portal is designed to ingest and serve data for my other projects and dashboards. The tech stack is as follows: 
 - All services in the project are containerized via Docker containers and orchestrated via docker-compose.
 - All load balancing and internal proxy routing is done by an Nginx server. This is the primary entry-point to the application for external traffic.
 - The main content that is served to users is done via the Django Web Framework and the Web API’s are built using the Django REST Framework toolkit.
@@ -20,9 +30,15 @@ This Online Data Portal is the project that I have spent most of my time on. Con
 - All of the data is stored on a PostgreSQL database.
 - The entire service is hosted on Digital Ocean.
 
-This project is at the heart of all of my personal projects and is available externally to anyone who wants to make use of the data. You can read more about the project [here](#) or if you want to make use of the APIs you can [check out the docs](#).  
+This project is at the heart of all of my personal projects and is available externally to anyone who wants to make use of the data. You can view the source code [here](https://github.com/MatthewTe/ETL_project_monorepo) or if you want to make use of the APIs you can [check out the docs](https://etl-project-monorepo.readthedocs.io/en/latest/).  
 
 ## Personal Research Site
+![No image lol](assets/images/icon/django_icon.png){: .icon}
+![No image lol](assets/images/icon/psql_icon.png){: .icon}
+![No image lol](assets/images/icon/nginx_icon.png){: .icon}
+![No image lol](assets/images/icon/docker_icon.png){: .icon}
+![No image lol](assets/images/icon/DigitalOcean_icon.png){: .icon1}
+
 ![There is no image for some reason](assets/images/research_site_thunbnail.png)
 Another personal project, the research site was built to help me organize my thoughts and research on topics that I am interested in. It is another django web project that performs CRUD operations, allowing me to add items relevant to research such as personal blog posts, citations, books I have read, etc. 
 - All services in the project are containerized via Docker containers and orchestrated via docker-compose.
